@@ -1,32 +1,3 @@
-# Mintlify Starter Kit
+📖 Overview
+BluChip is a blockchain-based project with supporting tools and utilities written in Python. It includes modules for key management, descriptor encoding, address validation, and automated testing—all likely part of a cryptocurrency wallet or node infrastructure. The codebase appears to follow Bitcoin conventions and structure, indicating a fork or customization based on Bitcoin Core.
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
-
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
-
-### Development
-
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
-
-```
-npm i -g mintlify
-```
-
-Run the following command at the root of your documentation (where docs.json is)
-
-```
-mintlify dev
-```
-
-### Publishing Changes
-
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
-
-#### Troubleshooting
-
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `docs.json`
