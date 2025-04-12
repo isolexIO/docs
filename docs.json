@@ -58,14 +58,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "anchor": "BluChain X-Ray",
+          "href": "http://xray.bluchain.xyz",
           "icon": "book-open-cover"
         },
         {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "href": "https://docs.bluchain.xyz/introduction",
+          "icon": "discord"
         },
         {
           "anchor": "Blog",
