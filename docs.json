@@ -60,6 +60,11 @@
           "anchor": "Stake $BluC",
           "href": "https://stake.smithii.io/bluc",
           "icon": "sol"
+        },
+        {
+          "anchor": "Download $BluC Billfold",
+          "href": "https://bluchain.xyz/download-bluc-billfold",
+          "icon": "wallet"
         }
       ]
     }
