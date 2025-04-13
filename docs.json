@@ -46,10 +46,9 @@
           {
             "group": "Endpoint Examples",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "api-reference/endpoint/api",
+              "api-reference/endpoint/extended",
+              "api-reference/endpoint/linking"
             ]
           }
         ]
@@ -70,7 +69,7 @@
         {
           "anchor": "Stake $BluC",
           "href": "https://stake.smithii.io/bluc",
-          "icon": "moneybag"
+          "icon": "money"
         }
       ]
     }
