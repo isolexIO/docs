@@ -1,0 +1,53 @@
+---
+title: "API Calls"
+openapi: "GET /plants"
+description: "Return data from coind"
+---
+
+
+- **getdifficulty**\
+  _Returns the current difficulty._\
+  [185.196.102.82:80/api/getdifficulty](http://xray.bluchain.xyz/api/getdifficulty)
+- **getconnectioncount**\
+  _Returns the number of connections the block explorer has to other nodes._\
+  [185.196.102.82:80/api/getconnectioncount](http://xray.bluchain.xyz/api/getconnectioncount)
+- **getblockcount**\
+  _Returns the current block index._\
+  [185.196.102.82:80/api/getblockcount](http://xray.bluchain.xyz/api/getblockcount)
+- **getblockhash [index]**\
+  _Returns the hash of the block at ; index 0 is the genesis block._\
+  [185.196.102.82:80/api/getblockhash?index=1337](http://xray.bluchain.xyz/api/getblockhash?index=1337)
+- **getblock [hash]**\
+  _Returns information about the block with the given hash._\
+  [185.196.102.82:80/api/getblock?hash=1733320247b15ca2262be646397d1ffd6be953fa638ebb8f5dcbb4c2b91b34f1](http://xray.bluchain.xyz/api/getblock?hash=1733320247b15ca2262be646397d1ffd6be953fa638ebb8f5dcbb4c2b91b34f1)
+- **getrawtransaction [txid] [decrypt]**\
+  _Returns raw transaction representation for given transaction id. decrypt can be set to 0(false) or 1(true)._\
+  [<u>185.196.102.82:80/api/getrawtransaction?txid=f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e&decrypt=0</u>](http://xray.bluchain.xyz/api/getrawtransaction?txid=f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e&decrypt=0)\
+  [185.196.102.82:80/api/getrawtransaction?txid=f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e&decrypt=1](http://xray.bluchain.xyz/api/getrawtransaction?txid=f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e&decrypt=1)
+- **getnetworkhashps**\
+  _Returns the current network hashrate. (hash/s)_\
+  [185.196.102.82:80/api/getnetworkhashps](http://xray.bluchain.xyz/api/getnetworkhashps)
+- **getmaxmoney**\
+  _Returns the maximum possible money supply._\
+  [185.196.102.82:80/api/getmaxmoney](http://xray.bluchain.xyz/api/getmaxmoney)
+- **getmaxvote**\
+  _Returns the maximum allowed vote for the current phase of voting._\
+  [185.196.102.82:80/api/getmaxvote](http://xray.bluchain.xyz/api/getmaxvote)
+- **getvote**\
+  _Returns the current block reward vote setting._\
+  [185.196.102.82:80/api/getvote](http://xray.bluchain.xyz/api/getvote)
+- **getphase**\
+  _Returns the current voting phase ('Mint', 'Limit' or 'Sustain')._\
+  [185.196.102.82:80/api/getphase](http://xray.bluchain.xyz/api/getphase)
+- **getreward**\
+  _Returns the current block reward, which has been decided democratically in the previous round of block reward voting._\
+  [185.196.102.82:80/api/getreward](http://xray.bluchain.xyz/api/getreward)
+- **getsupply**\
+  _Returns the current money supply._\
+  [185.196.102.82:80/api/getsupply](http://xray.bluchain.xyz/api/getsupply)
+- **getnextrewardestimate**\
+  _Returns an estimate for the next block reward based on the current state of decentralized voting._\
+  [185.196.102.82:80/api/getnextrewardestimate](http://xray.bluchain.xyz/api/getnextrewardestimate)
+- **getnextrewardwhenstr**\
+  _Returns string describing how long until the votes are tallied and the next block reward is computed._\
+  [185.196.102.82:80/api/getnextrewardwhenstr](http://xray.bluchain.xyz/api/getnextrewardwhenstr)

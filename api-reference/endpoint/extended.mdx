@@ -1,0 +1,25 @@
+---
+title: "Extended API"
+openapi: "POST /plants"
+description: "Return data from local indexes"
+---
+
+- **getmoneysupply**\
+  _Returns current money supply_\
+  [185.196.102.82:80/ext/getmoneysupply](http://xray.bluchain.xyz/ext/getmoneysupply)
+- **getdistribution**\
+  _Returns wealth distribution stats_\
+  [185.196.102.82:80/ext/getdistribution](http://xray.bluchain.xyz/ext/getdistribution)
+- **getaddress (/ext/getaddress/hash)**\
+  _Returns information for given address_\
+  [185.196.102.82:80/ext/getaddress/RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb](http://xray.bluchain.xyz/ext/getaddress/RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb)
+- **gettx (/ext/gettx/hash)**\
+  _Returns information for given tx hash_\
+  [<u>185.196.102.82:80/ext/gettx/f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e</u>](http://xray.bluchain.xyz/ext/gettx/f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e)
+- **getbalance (/ext/getbalance/hash)**\
+  _Returns current balance of given address_\
+  [185.196.102.82:80/ext/getbalance/RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb](http://xray.bluchain.xyz/ext/getbalance/RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb)
+- **getlasttxsajax (/ext/getlasttxsajax/min)**\
+  _Returns last transactions greater than [min]_\
+  _Note: returned values are in satoshis_\
+  [185.196.102.82:80/ext/getlasttxsajax/100](http://xray.bluchain.xyz/ext/getlasttxsajax/100)
