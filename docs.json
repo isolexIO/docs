@@ -58,9 +58,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "$BluC Pre-Sale",
+          "href": "https://tools.smithii.io/launch/BluChain-Project-",
+          "icon": "coin"
         },
         {
           "anchor": "Community",
@@ -68,9 +68,9 @@
           "icon": "discord"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Stake $BluC",
+          "href": "https://stake.smithii.io/bluc",
+          "icon": "bank"
         }
       ]
     }
@@ -94,7 +94,7 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
+      "x": "https://x.com/BluChain_Project",
       "github": "https://github.com/isolexIO/docs.git"
     }
   }
