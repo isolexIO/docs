@@ -20,7 +20,7 @@
               "quickstart",
               "contribute"
             ]
-          },
+          }
         ]
       },
       {
@@ -64,7 +64,7 @@
           "anchor": "Download $BluC Billfold",
           "href": "https://bluchain.xyz/download-bluc-billfold",
           "icon": "wallet"
-        },
+        }
       ]
     }
   },
