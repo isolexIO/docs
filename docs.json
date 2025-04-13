@@ -34,7 +34,7 @@
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "API Endpoints",
             "pages": [
               "api-reference/endpoint/api",
               "api-reference/endpoint/extended",
@@ -59,7 +59,7 @@
         {
           "anchor": "Stake $BluC",
           "href": "https://stake.smithii.io/bluc",
-          "icon": "sol"
+          "icon": "coins"
         },
         {
           "anchor": "Download $BluC Billfold",
