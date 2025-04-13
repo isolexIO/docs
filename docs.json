@@ -4,8 +4,8 @@
   "name": "BluChain Project",
   "colors": {
     "primary": "#0080FF",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "light": "#0080FF",
+    "dark": "#0080FF"
   },
   "favicon": "images/BluCHEAD.png",
   "navigation": {
