@@ -1,0 +1,106 @@
+---
+title: "Tutorial - Install node on Ubuntu Server 22.04"
+description: "Install a node for your coin on Ubuntu Server 22.04 with the following tutorial."
+---
+
+<Info>
+  Recommended KVM VPS on [ReactR](https://reactr.site/linux-vps-web-hosting-service/kvm/kvm-1/) starting at $12
+
+  <Card title="ReactR-K1" icon="server" iconType="regular" href="https://reactr.site/linux-vps-web-hosting-service/kvm/kvm-1/" cta="$14.00/month">
+    Having hired a VPS server offer, you can actually run a lot of media–heavy websites, including news web sites. It is set with free of cost bonuses and provides a choice of Control Panel interfaces and Linux releases.
+
+    - **ReactR-K1 Package**
+    - [<u>20 GB Disk Space</u>](https://reactr.site/hosting-definitions/disk-space/#kvm)
+      - [<u>1 TB Monthly Traffic</u>](https://reactr.site/hosting-definitions/monthly-traffic/#kvm)
+      - [<u>1024 MB RAM</u>](https://reactr.site/hosting-definitions/guaranteed-ram/#kvm)
+      - 1 CPU Core(s)
+      - 1 IP Addresses
+      - [<u>Unlimited Hosted Domains</u>](https://reactr.site/hosting-definitions/domains-hosted/#kvm)
+      - AlmaLinux / Debian / Ubuntu
+      - [<u>» All features</u>](https://reactr.site/linux-vps-web-hosting-service/kvm/kvm-1/)
+
+
+    - **Our Advantages**
+    - Weekly Backups
+      - Full Root Access
+      - [SSH Access](https://reactr.site/hosting-definitions/ssh-telnet/#kvm)
+      - Domain Reseller Account
+      - US Data Center
+      - Quick Server Setup
+      - [<u>24/7 Technical Support</u>](https://reactr.site/hosting-definitions/support/#kvm)
+      - [<u>99.9% Uptime Guarantee</u>](https://reactr.site/hosting-definitions/service-uptime/#kvm)
+  </Card>
+  <Card title="ReactR-K2" icon="server" iconType="regular" href="https://reactr.site/linux-vps-web-hosting-service/kvm/kvm-2/" cta="$24.00/month">
+    A perfectly balanced KVM–centered virtual server choice for your multimedia sites and applications, that features operating system selections, an absolutely free Control Panel, full root access through SSH, the Memcached & Varnish web accelerators, a 99.9% network uptime guarantee and even more.
+
+    - **ReactR-K2 Package**
+    - [<u>40 GB Disk Space</u>](https://reactr.site/hosting-definitions/disk-space/#kvm)
+      - [<u>2 TB Monthly Traffic</u>](https://reactr.site/hosting-definitions/monthly-traffic/#kvm)
+      - [<u>2048 MB RAM</u>](https://reactr.site/hosting-definitions/guaranteed-ram/#kvm)
+      - 1 CPU Core(s)
+      - 1 IP Addresses
+      - [<u>Unlimited Hosted Domains</u>](https://reactr.site/hosting-definitions/domains-hosted/#kvm)
+      - AlmaLinux / Debian / Ubuntu
+      - [<u>» All features</u>](https://reactr.site/linux-vps-web-hosting-service/kvm/kvm-2/)
+
+
+    - **Our Advantages**
+    - Weekly Backups
+      - Full Root Access
+      - [<u>SSH Access</u>](https://reactr.site/hosting-definitions/ssh-telnet/#kvm)
+      - Domain Reseller Account
+      - US Data Center
+      - Quick Server Setup
+      - [<u>24/7 Technical Support</u>](https://reactr.site/hosting-definitions/support/#kvm)
+      - [<u>99.9% Uptime Guarantee</u>](https://reactr.site/hosting-definitions/service-uptime/#kvm)
+  </Card>
+</Info>
+
+Update your Ubuntu server with the following command:
+
+`sudo apt-get update && sudo apt-get upgrade -y`
+
+Download the Linux daemon for your wallet with the following command:
+
+`wget "https://dl.walletbuilders.com/download?customer=c4833c4e46773f424605f72bf7cb1ae368b802f2dbd157d893&filename=bluchip-daemon-linux.tar.gz" -O bluchip-daemon-linux.tar.gz`
+
+Extract the tar file with the following command:
+
+`tar -xzvf bluchip-daemon-linux.tar.gz`
+
+Download the Linux tools for your wallet with the following command:
+
+`wget "https://dl.walletbuilders.com/download?customer=c4833c4e46773f424605f72bf7cb1ae368b802f2dbd157d893&filename=bluchip-qt-linux.tar.gz" -O bluchip-qt-linux.tar.gz`
+
+Extract the tar file with the following command:
+
+`tar -xzvf bluchip-qt-linux.tar.gz`
+
+Type the following command to install the daemon and tools for your wallet:
+
+`sudo mv bluchipd bluchip-cli bluchip-tx /usr/bin/`
+
+Create the data directory for your coin with the following command:
+
+`mkdir $HOME/.bluchip`
+
+Open nano.
+
+`nano $HOME/.bluchip/bluchip.conf -t`
+
+Paste the following into nano.
+
+`rpcuser=rpc_bluchip\
+rpcpassword=dR2oBQ3K1zYMZQtJFZeAerhWxaJ5Lqeq9J2\
+rpcbind=127.0.0.1\
+rpcallowip=127.0.0.1\
+listen=1\
+server=1\
+txindex=1\
+daemon=1`
+
+Save the file with the keyboard shortcut <kbd>ctrl</kbd> \+ <kbd>x</kbd>.
+
+Type the following command to start your node:
+
+`bluchipd`
