@@ -48,8 +48,8 @@
     "global": {
       "anchors": [
         {
-          "anchor": "$BluC Pre-Sale",
-          "href": "https://tools.smithii.io/launch/BluChain-Project-",
+          "anchor": "$BluC",
+          "href": "https://bluchip.org/BluCToken",
           "icon": "coin"
         },
         {
@@ -58,8 +58,8 @@
           "icon": "discord"
         },
         {
-          "anchor": "Stake $BluC",
-          "href": "https://stake.smithii.io/bluc",
+          "anchor": "Stake $pBluC",
+          "href": "https://www.team.finance/view-coin/0x008908f61b303aa37c4257c713fb66b08c260bdb?name=BluChip&symbol=pBluC&chainid=0x89",
           "icon": "coins"
         },
         {
@@ -84,7 +84,7 @@
     "primary": {
       "type": "button",
       "label": "BluChain X-Ray",
-      "href": "http://xray.bluchain.xyz"
+      "href": "http://185.196.102.139:3001/"
     }
   },
   "footer": {
