@@ -63,11 +63,6 @@
           "icon": "coins"
         },
         {
-          "anchor": "Download $BluC Billfold",
-          "href": "https://docs.bluchain.xyz/BluC-Billfold",
-          "icon": "wallet"
-        },
-        {
           "anchor": "Governance",
           "href": "https://app.aragon.org/dao/polygon-mainnet/0xebe597480A414AA717c1C2f7797aa20a32572617/dashboard?members=admin&proposals=all",
           "icon": "gavel"
