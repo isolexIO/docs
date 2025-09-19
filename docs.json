@@ -17,6 +17,7 @@
             "group": "Get Started",
             "pages": [
               "introduction",
+              "BluC-Billfold",
               "run-a-validator",
               "contribute",
               "changelog"
